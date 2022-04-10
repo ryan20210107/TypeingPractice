@@ -8,3 +8,14 @@ C:\Users\ryanfw\source\repos\Typing\Typing\obj\Debug\Typing.csproj.GenerateResou
 C:\Users\ryanfw\source\repos\Typing\Typing\obj\Debug\Typing.csproj.CoreCompileInputs.cache
 C:\Users\ryanfw\source\repos\Typing\Typing\obj\Debug\Typing.exe
 C:\Users\ryanfw\source\repos\Typing\Typing\obj\Debug\Typing.pdb
+C:\Users\cas\Desktop\typing\TypeingPractice\Typing\Typing\bin\Debug\Typing.exe.config
+C:\Users\cas\Desktop\typing\TypeingPractice\Typing\Typing\bin\Debug\Typing.exe
+C:\Users\cas\Desktop\typing\TypeingPractice\Typing\Typing\bin\Debug\Typing.pdb
+C:\Users\cas\Desktop\typing\TypeingPractice\Typing\Typing\obj\Debug\Typing.csproj.AssemblyReference.cache
+C:\Users\cas\Desktop\typing\TypeingPractice\Typing\Typing\obj\Debug\Typing.csproj.SuggestedBindingRedirects.cache
+C:\Users\cas\Desktop\typing\TypeingPractice\Typing\Typing\obj\Debug\Typing.Form1.resources
+C:\Users\cas\Desktop\typing\TypeingPractice\Typing\Typing\obj\Debug\Typing.Properties.Resources.resources
+C:\Users\cas\Desktop\typing\TypeingPractice\Typing\Typing\obj\Debug\Typing.csproj.GenerateResource.cache
+C:\Users\cas\Desktop\typing\TypeingPractice\Typing\Typing\obj\Debug\Typing.csproj.CoreCompileInputs.cache
+C:\Users\cas\Desktop\typing\TypeingPractice\Typing\Typing\obj\Debug\Typing.exe
+C:\Users\cas\Desktop\typing\TypeingPractice\Typing\Typing\obj\Debug\Typing.pdb

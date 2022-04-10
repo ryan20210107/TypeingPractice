@@ -34,6 +34,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.ckb_sound = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.lbl_ok = new System.Windows.Forms.Label();
+            this.lbl_ng = new System.Windows.Forms.Label();
+            this.lbl_total = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -73,9 +76,9 @@
             // 
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Font = new System.Drawing.Font("Consolas", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(290, 9);
+            this.label1.Location = new System.Drawing.Point(314, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 97);
+            this.label1.Size = new System.Drawing.Size(128, 117);
             this.label1.TabIndex = 3;
             this.label1.Text = "A";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -93,18 +96,52 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Consolas", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(278, 109);
+            this.label2.Location = new System.Drawing.Point(309, 116);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(153, 98);
             this.label2.TabIndex = 5;
             this.label2.Text = "NG";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // lbl_ok
+            // 
+            this.lbl_ok.AutoSize = true;
+            this.lbl_ok.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_ok.Location = new System.Drawing.Point(23, 195);
+            this.lbl_ok.Name = "lbl_ok";
+            this.lbl_ok.Size = new System.Drawing.Size(54, 19);
+            this.lbl_ok.TabIndex = 6;
+            this.lbl_ok.Text = "OK : ";
+            // 
+            // lbl_ng
+            // 
+            this.lbl_ng.AutoSize = true;
+            this.lbl_ng.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_ng.Location = new System.Drawing.Point(101, 195);
+            this.lbl_ng.Name = "lbl_ng";
+            this.lbl_ng.Size = new System.Drawing.Size(54, 19);
+            this.lbl_ng.TabIndex = 7;
+            this.lbl_ng.Text = "NG : ";
+            // 
+            // lbl_total
+            // 
+            this.lbl_total.AutoSize = true;
+            this.lbl_total.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_total.Location = new System.Drawing.Point(187, 195);
+            this.lbl_total.Name = "lbl_total";
+            this.lbl_total.Size = new System.Drawing.Size(81, 19);
+            this.lbl_total.TabIndex = 8;
+            this.lbl_total.Text = "Total : ";
+            this.lbl_total.Click += new System.EventHandler(this.lbl_total_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(474, 443);
+            this.Controls.Add(this.lbl_total);
+            this.Controls.Add(this.lbl_ng);
+            this.Controls.Add(this.lbl_ok);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.ckb_sound);
             this.Controls.Add(this.label1);
@@ -113,7 +150,8 @@
             this.Controls.Add(this.richTextBox1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Typing Exercise v1.0.0 (2021.12.24)";
+            this.Text = "Typing Exercise v1.0.1 (2022.04.10)";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -127,6 +165,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox ckb_sound;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbl_ok;
+        private System.Windows.Forms.Label lbl_ng;
+        private System.Windows.Forms.Label lbl_total;
     }
 }
 
